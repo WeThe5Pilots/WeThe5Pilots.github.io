@@ -75,6 +75,21 @@
         <!-- /.container-fluid -->
     </nav>
 
+	    <header id="workShop" class="workshop-header">
+	        <div class="header-content">
+	            <div class="workshop-content-inner">
+	                <h1>
+	                	FLYERS<br>
+	                </h1>
+	                <h2>Plane Building Workshop and Contest</h2>
+	                <h3>Saturday, May 26, 2018</h3>
+	                <h4>Venue: <a href="www.decathlon.in" class="btn-warning">Decathlon</a>, Coimbatore</h4>
+	                <hr>
+	                <a href="workshops/flyers/flyers-decathlon-zebronics-29052018.html" 
+	                	class="btn btn-success btn-xl page-scroll">Know More</a>
+	            </div>
+	        </div>
+	    </header>
 
 	    <header class="index-header">
 	        <div class="header-content">
@@ -297,6 +312,8 @@
 			</div>
         </div>
     </footer>
+
+  
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -307,10 +324,17 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
-
+    
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
 
+<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function() {
+		setTimeout(function() {
+	    	document.getElementById('workShop').className = 'slideDown';
+	  		}, 3000);
+	}, false);
+</script>
     <!-- Google Map API -->
 	<script type="text/javascript" src="js/map.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrm5VcrdhjMVUrvpL_jUIISCMOrrpxaBU&callback=initialize" async defer></script>
